@@ -1,0 +1,83 @@
+.carousel-caption{
+    color: #2f2f2f;
+    text-shadow: none;
+    bottom: unset;
+}
+table{
+    font-size: 1.2vw;
+}
+
+th {
+    background-color: #020BAD;
+    color: #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    text-align: center;
+    /*font-size: 1.4vw;*/
+    /*font-weight: 600;*/
+
+
+}
+th:not(:first-child){
+    width: 9%;
+}
+
+th p span{
+    font-size: 2.5vw;
+}
+tr{
+    text-align: center;
+}
+tr:nth-child(2n) {
+    background: #bbdfff;
+}
+
+
+tr.bg-spec{
+    background: #4cc158;
+    font-size: 1.5vw;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+p.spec{
+    text-transform: uppercase;
+}
+.time{
+    font-weight: 600;
+}
+
+.table > thead > tr > td.active,
+.table > tbody > tr > td.active,
+.table > tfoot > tr > td.active,
+.table > thead > tr > th.active,
+.table > tbody > tr > th.active,
+.table > tfoot > tr > th.active,
+.table > thead > tr.active > td,
+.table > tbody > tr.active > td,
+.table > tfoot > tr.active > td,
+.table > thead > tr.active > th,
+.table > tbody > tr.active > th,
+.table > tfoot > tr.active > th{
+    background-color: #0db334;
+    /*background-image: linear-gradient(90deg, rgba(0,0,0,0.5), rgba(0,0,0,0) .5rem, rgba(0,0,0,0), rgba(0,0,0,0.0) calc(100% - .5rem), rgba(0,0,0,0.5));*/
+    color: #ffffff;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}

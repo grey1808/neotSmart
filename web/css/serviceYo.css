@@ -1,0 +1,51 @@
+.blue-list:hover {
+    background-color: #cce4f7;
+}
+.blue-list {
+    cursor: pointer;
+    display: block;
+    background-color: #ffffff;
+    margin: 3px;
+    padding: 4px 7px;
+    font-size: 14px;
+    color: #366FA5;
+}
+.btn-menu.active{
+    background-color: #cce4f7;
+    color: #366FA5;
+}
+
+.mo strong{
+    color: #366fa5;
+}
+.btn-mo{
+    width: 100%;
+    white-space: pre-line;
+    margin-bottom: 20px;
+}
+
+.blue-div:hover {
+    background-color: #cce4f7;
+}
+.blue-div {
+    cursor: pointer;
+    display: block;
+    background-color: #ffffff;
+    padding: 4px 7px;
+    font-size: 14px;
+    color: #366FA5;
+}
+.blue-div-green:hover {
+    background-color: #B7D968;
+}
+.blue-div-green {
+    cursor: pointer;
+    display: block;
+    background-color: #ffffff;
+    padding: 4px 7px;
+    font-size: 14px;
+    color: #366FA5;
+}
+.loading{
+    display: none;
+}

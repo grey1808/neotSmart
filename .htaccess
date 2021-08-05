@@ -1,0 +1,18 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+
+RewriteCond %{REQUESt_URL} !^/(web)
+RewriteRule ^assets/(.*)$ /web/assets/$1 [L]
+RewriteRule ^css/(.*)$ /web/css/$1 [L]
+RewriteRule ^js/(.*)$ /web/js/$1 [L]
+RewriteRule ^img/(.*)$ /web/img/$1 [L]
+RewriteRule ^records/(.*)$ /web/records/$1 [L]
+RewriteRule ^records/sprecords(.*)$ /web/records/sprecords/$1 [L]
+RewriteRule (.*) /web/$1
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /web/index.php
+
+php_value date.timezone "Europe/Moscow"
